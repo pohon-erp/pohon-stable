@@ -17,8 +17,7 @@
         "firebase/php-jwt": "^5.0",
         "fzaninotto/faker": "^1.7",
         "simplesoftwareio/simple-qrcode": "~2",
-        "robmorgan/phinx": "^0.11.4",
-        "phpoffice/phpspreadsheet": "^1.10"
+        "robmorgan/phinx": "^0.11.4"
     },
     "suggest": {
         "paragonie/random_compat": "Provides better randomness in PHP 5.x"

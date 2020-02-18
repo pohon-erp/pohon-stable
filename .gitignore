@@ -15,13 +15,10 @@ user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 /vendor/
-/captcha/
 /uploads/temp/*
 /uploads/users/*
 /application/config/database.php
 /application/config/email.php
-/application/controllers/Devel.php
-/application/models/core/Devel_model.php
 
 # IDE Files
 #-------------------------
