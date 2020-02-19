@@ -1,0 +1,48 @@
+[{
+        "label": "Dashboard",
+        "url": "javascript:void(0);",
+        "icon": "fas fa-tachometer-alt",
+        "childs": [{
+            "label": "Summary",
+            "url": "common/dashboard/summary",
+            "icon": null,
+            "childs": []
+        }]
+    },
+    {
+        "label": "Pengaturan",
+        "url": "javascript:void(0);",
+        "icon": "fas fa-cogs",
+        "childs": [{
+                "label": "Aplikasi",
+                "url": "common/setting/application",
+                "icon": null,
+                "childs": []
+            },
+            {
+                "label": "Instansi",
+                "url": "common/setting/organization",
+                "icon": null,
+                "childs": []
+            },
+            {
+                "label": "Audit Trail",
+                "url": "common/setting/audit",
+                "icon": null,
+                "childs": []
+            },
+            {
+                "label": "Pengguna",
+                "url": "common/setting/user",
+                "icon": null,
+                "childs": []
+            },
+            {
+                "label": "Hak Akses",
+                "url": "common/setting/role",
+                "icon": null,
+                "childs": []
+            }
+        ]
+    }
+]

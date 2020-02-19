@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  | Default is empty: uses default group defined in CI's configuration
  | (see application/config/database.php, $active_group variable)
  */
-$config['database_group_name'] = '';
+$config['database_group_name'] = 'default';
 
 /*
 | -------------------------------------------------------------------------

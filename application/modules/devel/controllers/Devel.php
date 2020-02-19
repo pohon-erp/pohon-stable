@@ -9,8 +9,24 @@ class Devel extends MX_Controller{
 		if (!$this->input->is_cli_request()) exit('Only CLI access allowed');
     }
     
-    public function index(){
-        echo "Hello World";
+    public function install(){
+        $this->dev->install();
     }
+
+    public function update_schema() {
+        $folder = FCPATH.'/sql';
+        $files = glob($folder . '/*');
+        foreach($files as $file){
+            if(is_file($file)){ 
+                unlink($file);
+            }
+        }
+        echo exec('pg_dump -U '.$this->db->username.' --schema-only '.$this->db->database .' > '.FCPATH.'/sql/db_schema.sql');
+    }
+    
+    public function update_index(){
+		$this->dev->sync_index();
+	}
+
 
 }
